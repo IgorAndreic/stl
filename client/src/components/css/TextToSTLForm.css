@@ -1,0 +1,36 @@
+.text-to-stl-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 30%;
+    padding: 20px;
+    background-color: #282828; /* Different background color for better visibility */
+    color: #fff;
+  }
+
+.text-to-stl-form div {
+    margin-bottom: 15px;
+}
+
+.text-to-stl-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.text-to-stl-form input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+.text-to-stl-form button {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.text-to-stl-form button:hover {
+    background-color: #0056b3;
+}
